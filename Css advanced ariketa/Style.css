@@ -1,0 +1,44 @@
+/*tabla borobildua egiteko*/
+#ertzborobildua {
+  border-radius: 25px;
+  border: 3px solid #b3b3b3;
+  background-color: #d9d9d9;
+  padding: 12px;
+  margin: 10px;
+  width: 350px;
+  height: 15px;
+  box-shadow: 13px 16px 7px #737373;
+}
+
+/*Izenburua itzalarekin*/
+#izenburua {
+  text-shadow: 5px 6px 3.5px red;
+}
+/*Karratua rotatuta*/
+.karratua {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  width: 250px;
+  height: 150px;
+  background-color: yellow;
+  transform: rotate(20deg);
+}
+
+.inset{
+    border-style: inset;
+    border-radius: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+}
+
+.one{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.argazkia{
+    grid-column: 1/3;
+    grid-row: 4;
+}
