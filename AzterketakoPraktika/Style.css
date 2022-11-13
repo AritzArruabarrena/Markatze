@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: chocolate;
+    border: 5px solid;
+    border-color: rgb(134, 56, 27);
+}
+img{
+    width: 10%;
+    height: 20%;
+    float: left;
+
+}
+#testua{
+  text-indent: 10px;
+  border: 5px solid;
+  border-color: black;
+ float: left;
+
+}
+
+header{
+  font-size: 30px;
+  font-weight: 100px;
+}
