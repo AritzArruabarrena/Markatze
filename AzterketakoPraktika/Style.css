@@ -7,7 +7,7 @@ header {
 }
 img{
     width: 10%;
-    height: 20%;
+    height: 30%;
     float: left;
 
 }
@@ -16,6 +16,9 @@ img{
   border: 5px solid;
   border-color: black;
  float: left;
+ background-color: blue;
+ margin-left: 30px;
+ margin-right: 30px;
 
 }
 
@@ -23,3 +26,15 @@ header{
   font-size: 30px;
   font-weight: 100px;
 }
+p::first-letter{
+  font-size: 75px;
+}
+
+#id-botoia{
+  border: 5px solid;
+  width: fit-content;/* Textua agertzen den tamaina*/ 
+}
+
+#id-botoia:hover{
+  background-color: blue;
+} 
