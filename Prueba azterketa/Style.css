@@ -1,0 +1,59 @@
+#orria{
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: wheat;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: 1em sans-serif;
+    
+}
+
+#header{
+    background-color: tan;
+    color: maroon;
+    font-size: 30px;
+    border-top: maroon solid;
+    border-bottom: maroon solid;
+    padding-left: 5px;
+}
+
+#banner-img{
+padding: auto;
+padding-top: 5px;
+}
+
+#taula{
+    border: maroon solid;
+    width: 250px;
+    background-color: tan;
+    color: maroon;
+    margin-left: 25px;
+}
+
+#border-img{
+    border: maroon solid;
+    width: fit-content;
+    margin-left: 50px;
+    float: left;
+    
+    
+}
+
+.pertsonaiak{
+    clear: both;
+    background-color: tan;
+    padding-left: 2px;
+    border: maroon solid;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#testua{
+    float: right;
+    width: 400px;
+    margin-right: 400px;
+}
