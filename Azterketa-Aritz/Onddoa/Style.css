@@ -1,0 +1,55 @@
+body {
+  width: 900px;
+  padding-left: 450px;
+  font: 12pt Arial;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7d7;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #880;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.gaztaina) {
+  zoom: 2;
+}
+
+.gaztaina {
+  color: blue;
+}
+
+.active {
+  color: red;
+}
+
+.ostoak {
+  float: left;
+}
+
+.onddoa {
+  float: right;
+  height: 200px;
+}
+
+.DAM {
+  margin-top: 550px;
+  background-color: #f80;
+  text-align: right;
+}
+
+.testua{
+  clear: right;
+}

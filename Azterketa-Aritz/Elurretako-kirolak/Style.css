@@ -1,0 +1,37 @@
+body {
+  background-image: url("elurra.gif"), url("fondoa.jpg");
+}
+
+ul {
+  font: 18px Monotype Corsiva;
+  list-style-type: none;
+  color: white;
+  padding-left: 300px;
+  padding-top: 20px;
+  float: left;
+}
+
+.Eskuineko-kapa {
+  padding-left: 800px;
+  clear: left;
+}
+
+h1 {
+  font: 30px Monotype Corsiva;
+  color: white;
+}
+
+.paragrafoak {
+  font: 1em Arial;  
+  color: white;
+}
+
+p::first-letter {
+  font-size: 200%;
+}
+
+.imga {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+}

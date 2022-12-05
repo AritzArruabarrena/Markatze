@@ -1,0 +1,51 @@
+body {
+    width: 900px;
+    padding-left: 450px;
+    font: 12pt Arial;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7d7;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #880;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.onddoa) {
+    zoom: 2;
+  }
+  
+  .onddoa {
+    color: blue;
+  }
+  
+  .active {
+    color: red;
+  }
+
+  .gaztaina-img{
+    float: left;
+  }
+
+  .ostoak{
+    float: right;
+  }
+  
+  
+  .DAM {
+    margin-top: 250px;
+    background-color: #f80;
+    text-align: right;
+  }
