@@ -23,8 +23,9 @@ body {
     text-decoration: none;
   }
   
-  li a:hover:not(.onddoa) {
-    zoom: 2;
+  li a:hover{
+    font-size: 18pt;
+  text-decoration: underline;
   }
   
   .onddoa {

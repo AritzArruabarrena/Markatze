@@ -23,8 +23,9 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.gaztaina) {
-  zoom: 2;
+li a:hover {
+  font-size: 18pt;
+  text-decoration: underline;
 }
 
 .gaztaina {
@@ -40,12 +41,13 @@ li a:hover:not(.gaztaina) {
 }
 
 .onddoa {
-  float: right;
+  right: 170px;
+  top: 50px;
   height: 200px;
+  position: absolute;
 }
 
-.DAM {
-  margin-top: 550px;
+footer {
   background-color: #f80;
   text-align: right;
 }
