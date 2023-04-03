@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Validación de DNI, NIE y pasaporte</title>
+  <script src="balidatu.js">
+  </script>
+</head>
+<body>
+  <h1>Validación de DNI, NIE y pasaporte</h1>
+  <form>
+    <label for="identificacion">Introduce tu DNI, NIE o pasaporte:</label>
+    <input type="text" id="identificacion" name="identificacion" required>
+    <button type="button" onclick="validar()">Validar</button>
+  </form>
+  <script type="text/javascript">
+    function validar() {
+      var identificacion = document.getElementById("identificacion").value;
+      if (validarDocumento(identificacion)) {
+        alert("El documento es válido.");
+      }
+    }
+  </script>
+</body>
+</html>
